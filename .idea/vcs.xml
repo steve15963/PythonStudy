@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ACGPN" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ACGPN/Self-Correction-Human-Parsing-for-ACGPN" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ACGPN/U-2-Net" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/grpc/grpc" vcs="Git" />
+  </component>
+</project>
