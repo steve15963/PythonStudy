@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package pythonStudygRPC;
+
+service Chat {
+    rpc send (messageData) returns (messageData) {}
+}
+
+message messageData {
+    string nickName = 1;
+    string msg = 2;
+}
