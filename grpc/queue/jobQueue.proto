@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package maunQ;
+
+service MaunQList {
+    rpc get () returns (QueueNameList) {}
+}
+
+service MessageQueue {
+    rpc get () returns (QueueNameList) {}
+}
+
+
+message QueueNameList{
+    repeated string QueueNameList = 1;
+}
+
